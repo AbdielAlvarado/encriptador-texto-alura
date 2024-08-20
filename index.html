@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Encriptador de texto</title>
+    <link rel="stylesheet" href="style/style.css" />
+  </head>
+  <body>
+    <header>
+      <img src="assets/Logo.png" alt="Logo Alura" />
+    </header>
+
+    <main class="main">
+      <section>
+        <textarea
+          class="texto__usuario"
+          id="texto__usuario__original"
+          cols="30"
+          placeholder="Ingrese el texto aqui"
+        ></textarea>
+
+        <div class="texto__usuario__restricciones">
+          <p>
+            <img src="assets/icono_warning.png" />Solo letras minúsculas y sin acentos
+          </p>
+        </div>
+
+        <div class="botonera">
+          <button class="btn__encriptar">Encriptar</button>
+          <button class="btn__desencriptar">Desencriptar</button>
+        </div>
+      </section>
+
+      <section>
+        <div class="texto__encriptado__muñeco">
+          <img src="assets/Muñeco.png" alt="Muñeco" />
+          <div class="texto__encriptado__placeholder">
+            <h2>Ningún mensaje fue encontrado</h2>
+            <p>Ingresa el texto que desees encriptar o desencriptar.</p>
+          </div>
+        </div>
+        <div>
+          <button class="btn__copiar">Copiar</button>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <p>Creado por Abdiel Alvarado</p>
+    </footer>
+  </body>
+</html>
