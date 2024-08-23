@@ -8,7 +8,7 @@
   </head>
   <body>
     <header>
-      <img src="assets/Logo.png" alt="Logo Alura" />
+      <img class="logo__alura" src="assets/Logo.png" alt="Logo Alura" />
     </header>
 
     <main class="main">
@@ -21,7 +21,7 @@
         ></textarea>
 
         <div class="texto__usuario__restricciones">
-          <p>
+          <p class="texto__usuario__restricciones__p">
             <img src="assets/icono_warning.png" />Solo letras minúsculas y sin acentos
           </p>
         </div>
@@ -33,14 +33,18 @@
       </section>
 
       <section>
-        <div class="texto__encriptado__muñeco">
-          <img src="assets/Muñeco.png" alt="Muñeco" />
+        <div class="texto__encriptado">
+          <img class="texto__encriptado__muñeco" src="assets/Muñeco.png" alt="Muñeco" />
           <div class="texto__encriptado__placeholder">
-            <h2>Ningún mensaje fue encontrado</h2>
-            <p>Ingresa el texto que desees encriptar o desencriptar.</p>
+            <h2 class="texto__encriptado__placeholder__h2">
+              Ningún mensaje fue encontrado
+            </h2>
+            <p class="texto__encriptado__placeholder__p">
+              Ingresa el texto que desees encriptar o desencriptar.
+            </p>
           </div>
         </div>
-        <div>
+        <div class="texto__encriptado__copiar">
           <button class="btn__copiar">Copiar</button>
         </div>
       </section>
