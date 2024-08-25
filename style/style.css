@@ -61,6 +61,11 @@ body {
   line-height: 150%;
 }
 
+.texto__usuario__icono {
+  max-width: 8%;
+  height: auto;
+}
+
 .botonera {
   display: flex;
   flex-direction: row;
@@ -178,7 +183,7 @@ body {
   line-height: 120%;
   font-weight: 700;
   text-align: center;
-  color: gray;
+  color: black;
 }
 
 .texto__encriptado__placeholder__p {
@@ -209,4 +214,118 @@ body {
   bottom: 0;
   left: 0;
   width: 100%;
+}
+
+/* Vista tablet 700px*/
+@media (max-width: 700px) {
+  body {
+    width: auto;
+  }
+
+  .texto__usuario {
+    width: 80%;
+    height: 50%;
+    left: 5%;
+    top: 13%;
+  }
+  .texto__usuario__restricciones {
+    width: 80%;
+    left: 5%;
+    top: 67%;
+  }
+  .texto__usuario__restricciones__p {
+    font-size: 16px;
+  }
+  .botonera {
+    width: 80%;
+    left: 5%;
+    top: 70%;
+  }
+  .btn__encriptar,
+  .btn__desencriptar {
+    width: 48%;
+  }
+
+  .texto__encriptado {
+    width: 75%;
+    height: 23%;
+    left: 5%;
+    top: 78%;
+  }
+
+  .texto__encriptado__copiar {
+    left: 45%;
+    top: 95%;
+  }
+
+  .btn__copiar {
+    width: 80%;
+  }
+
+  .texto__encriptado__placeholder {
+    width: auto;
+    top: 2%;
+    left: 15%;
+  }
+
+  .texto__encriptado__muñeco {
+    top: 0;
+    display: none;
+    visibility: hidden;
+  }
+}
+
+/* Vista celular 400px*/
+@media (max-width: 400px) {
+  body {
+    width: auto;
+  }
+
+  .texto__usuario {
+    width: 80%;
+    height: 50%;
+    left: 10%;
+    top: 13%;
+  }
+
+  .texto__usuario__restricciones {
+    width: 80%;
+    left: 10%;
+    top: 67%;
+  }
+
+  .texto__usuario__restricciones__p {
+    font-size: 12px;
+  }
+
+  .botonera {
+    gap: 10px;
+    left: 10%;
+    top: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .btn__encriptar,
+  .btn__desencriptar {
+    width: 112%;
+  }
+
+  .texto__encriptado {
+    width: 90%;
+    height: 23%;
+    left: 10%;
+    top: 84%;
+    padding: 2%;
+  }
+
+  .texto__encriptado__copiar {
+    left: 58%;
+    top: 102%;
+  }
+
+  .btn__copiar {
+    width: 90%;
+  }
 }
