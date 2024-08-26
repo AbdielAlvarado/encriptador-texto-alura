@@ -28,13 +28,13 @@
         </div>
 
         <div class="botonera">
-          <button class="btn__encriptar">Encriptar</button>
-          <button class="btn__desencriptar">Desencriptar</button>
+          <button class="btn__encriptar" onclick="encriptar()">Encriptar</button>
+          <button class="btn__desencriptar" onclick="desencriptar()">Desencriptar</button>
         </div>
       </section>
 
       <section>
-        <div class="texto__encriptado">
+        <div class="texto__encriptado" id="texto__encriptado">
           <img class="texto__encriptado__muñeco" src="assets/Muñeco.png" alt="Muñeco" />
           <div class="texto__encriptado__placeholder">
             <h2 class="texto__encriptado__placeholder__h2">
@@ -46,12 +46,14 @@
           </div>
         </div>
         <div class="texto__encriptado__copiar">
-          <button class="btn__copiar">Copiar</button>
+          <button class="btn__copiar" onclick="copiar()">Copiar</button>
         </div>
       </section>
     </main>
     <footer class="footer">
       <p>Creado por Abdiel Alvarado</p>
     </footer>
+
+    <script src="app.js"></script>
   </body>
 </html>

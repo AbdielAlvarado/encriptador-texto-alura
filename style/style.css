@@ -117,17 +117,17 @@ body {
   justify-content: center;
   margin-top: 20px;
   position: absolute;
-  top: 80%;
+  top: 78%;
   gap: 24px;
   left: 74%;
   transform: translateX(-50%);
-  width: 80%;
+  width: 30%;
 }
 
 .btn__copiar {
   justify-content: center;
-  padding: 2%;
-  width: 25%;
+  padding: 5%;
+  width: 70%;
   gap: 24px;
   font-family: "Inter", sans-serif;
   font-size: 16px;
@@ -139,8 +139,13 @@ body {
   cursor: pointer;
 }
 
+.btn__copiar:hover{
+  margin: 0.3%;
+  padding: 4.8%;
+  width: 68.5%;
+}
+
 .btn__encriptar:hover,
-.btn__copiar:hover,
 .btn__desencriptar:hover {
   margin: 0.3%;
   padding: 1.8%;
